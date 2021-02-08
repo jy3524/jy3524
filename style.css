@@ -12,12 +12,7 @@ h1 {
     font-size: 200px;
 }
 
-a:link {
+a {
     font-size: 30px; 
     color: aliceblue;
-}
-
-a:visited {
-    font-size: 30px;
-    color: antiquewhite;
 }
