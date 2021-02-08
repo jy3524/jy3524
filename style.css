@@ -1,0 +1,23 @@
+body {
+    background-color: darkseagreen;
+}
+
+div {
+    color: darkolivegreen; 
+    text-align: center; 
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 200px;
+}
+
+a:link {
+    font-size: 30px; 
+    color: aliceblue;
+}
+
+a:visited {
+    font-size: 30px;
+    color: cadetblue;
+}
