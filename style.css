@@ -15,10 +15,8 @@ h1 {
 a {
     font-size: 25px; 
     color: aliceblue;
-    background-color: darkolivegreen;
-    width: 20px;
-    border: 5px solid darkolivegreen;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 20px;
+}
+
+a:hover {
+    background-color: yellow;
 }
