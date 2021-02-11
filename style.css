@@ -15,9 +15,13 @@ h1 {
 a {
     font-size: 25px; 
     color: aliceblue;
+}
+
+section {
     background-color: darkolivegreen;
     width: 20px;
     border: 5px solid darkolivegreen;
     padding: 10px;
-    margin: 10px;
+    margin: 1vh;
+    border-radius: 20px;
 }
