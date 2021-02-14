@@ -14,9 +14,14 @@ body {
     font-size: 300%;
 }
 
-#imgid {
+#imgone {
     text-align: left;
     width: 50%;
+}
+
+#imgtwo {
+    text-align: right;
+    width: 50%
 }
 
 #firsttext {
