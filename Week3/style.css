@@ -20,7 +20,7 @@ body {
 }
 
 #imgtwo {
-    text-align: right;
+    float: right;
     width: 50%
 }
 
