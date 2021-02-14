@@ -9,12 +9,12 @@ h1 {
 }
 
 #imgid {
-    float: left;
-    width: 40%;
+    text-align: center;
+    width: 50%;
 }
 
 #rightfloat {
-    float: right;
+    float: auto;
     font-family: sans-serif;
     font-size: 150%;
 }
