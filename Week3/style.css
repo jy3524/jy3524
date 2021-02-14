@@ -20,7 +20,7 @@ body {
 }
 
 #firsttext {
-    float: auto;
+    text-align: left;
     font-family: sans-serif;
     font-size: 1vw;
 }
