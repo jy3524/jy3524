@@ -12,7 +12,7 @@ h1 {
 }
 
 #firsttext {
-    float: auto;
+    float: left;
     font-family: sans-serif;
     font-size: 1vw;
 }
