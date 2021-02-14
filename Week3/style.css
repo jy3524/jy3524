@@ -2,14 +2,14 @@ body {
     background-color: darksalmon;
 }
 
-#decentral {
-    text-align: left;
+.alignleft {
+    float: left;
     font-family: sans-serif;
     font-size: 300%;
 }
 
-#information {
-    text-align: right;
+.alignright {
+    float: right;
     font-family: sans-serif;
     font-size: 300%;
 }
