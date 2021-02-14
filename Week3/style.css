@@ -11,8 +11,8 @@ h1 {
     width: 50%;
 }
 
-#rightfloat {
+#firsttext {
     float: auto;
     font-family: sans-serif;
-    font-size: 200%;
+    font-size: 5vw;
 }
