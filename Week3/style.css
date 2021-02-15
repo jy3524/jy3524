@@ -17,12 +17,13 @@ body {
 #imgone {
     text-align: left;
     width: 50%;
-    height: fit-content;
+    height: 80%
 }
 
 #imgtwo {
     float: right;
-    width: 50%
+    width: 50%;
+    height: 80%;
 }
 
 #firsttext {
