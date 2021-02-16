@@ -37,5 +37,8 @@ body {
 }
 
 nav {
+    font-size: 20px;
+    color: pink;
+    text-decoration: none;
     display: block;
 }
