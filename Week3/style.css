@@ -25,11 +25,6 @@ body {
     height: 1000px;
 }
 
-img {
-    float: left;
-    object-fit: cover;
-}
-
 #firsttext {
     float: left;
     font-family: sans-serif;
