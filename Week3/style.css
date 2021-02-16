@@ -17,11 +17,13 @@ body {
 #imgone {
     text-align: left;
     width: 50%;
+    object-fit: cover;
 }
 
 #imgtwo {
     float: right;
     width: 50%;
+    object-fit: cover;
 }
 
 img {
