@@ -35,3 +35,7 @@ body {
     font-family: sans-serif;
     font-size: 1vw;
 }
+
+nav {
+    display: block;
+}
