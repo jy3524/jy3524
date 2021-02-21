@@ -14,10 +14,18 @@ h1 {
 
 a {
     font-size: 30px; 
-    color: aliceblue;
+    color: white;
     text-decoration: none;
 }
 
 a:hover {
     background-color: green;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    font-family: Helvetica;
+    font-size: 20px;
+    color: darkolivegreen;
 }
