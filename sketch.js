@@ -9,8 +9,8 @@ function setup() {
 
 function draw () {
 	noStroke();
-	fill(255,255,255,30);
-	ellipse(mouseX,mouseY,30,30);
+	fill(255,255,255,50);
+	ellipse(mouseX,mouseY,50,50);
 }
 
 function mousePressed() {
