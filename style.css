@@ -28,3 +28,7 @@ a {
 a:hover {
     background-color: green;
 }
+
+li {
+    color: white;
+}
