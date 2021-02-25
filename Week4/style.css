@@ -59,7 +59,7 @@ body {
     width: 100px;
     height: 50px;
     left: 48%;
-    bottom: 35%;
+    bottom: 40%;
 }
 
 #righteye {
@@ -70,7 +70,7 @@ body {
     width: 100px;
     height: 50px;
     left: 58%;
-    bottom: 35%;
+    bottom: 40%;
 }
 
 #leftpupil {
@@ -81,7 +81,7 @@ body {
     width: 50px;
     height: 50px;
     left: 49%;
-    bottom: 35%;
+    bottom: 40%;
 }
 
 #rightpupil {
@@ -92,7 +92,7 @@ body {
     width: 50px;
     height: 50px;
     left: 59%;
-    bottom: 35%;
+    bottom: 40%;
 }
 
 #nose {
@@ -103,7 +103,7 @@ body {
     border-left: 50px solid transparent;
     border-right: 50px solid transparent;
     border-bottom: 100px solid beige;
-    left: 55%;
+    left: 52%;
     bottom: 25%;
 }
 
@@ -116,6 +116,6 @@ body {
     background-color: rgb(247, 168, 168);
     width: 100px;
     height: 30px;
-    left: 55%;
+    left: 52%;
     bottom: 20%;
 }
