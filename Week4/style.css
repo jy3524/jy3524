@@ -118,6 +118,18 @@ body {
     bottom: 18%;
 }
 
+#mouth:hover {
+    position: absolute;
+    border: 0px;
+    border-radius: 50%;
+    background-color: rgb(247, 168, 168);
+    width: 100px;
+    height: 50px;
+    left: 53%;
+    bottom: 18%;
+}
+}
+
 #nintendo {
     display: flex;
     justify-content: left;
