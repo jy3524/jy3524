@@ -16,6 +16,10 @@ body {
     background-color: #ffffff;
 }
 
+@-ms-viewport{
+    width: device-width;
+}
+
 #hair {
     display: flex;
     position: absolute;
