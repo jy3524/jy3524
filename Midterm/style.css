@@ -57,7 +57,7 @@ body {
     100% { color: black; }
 }
 
-@keyframes mymove {
+@keyframes colorchange {
     from {background-color: red;}
     to {background-color: orange;}
 }
@@ -153,5 +153,5 @@ body {
     height: 300px; 
     width: 300px; 
     border-radius: 50%; 
-    animation: mymove 3s infinite; 
+    animation: colorchange 3s infinite; 
 }
