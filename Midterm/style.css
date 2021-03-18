@@ -24,6 +24,10 @@ body {
     align-items: center;
 }
 
+audio {
+    display: none;
+}
+
 .nextbutton {
     background-color: #ffffff;
     border: 20px;
