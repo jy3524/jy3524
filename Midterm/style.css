@@ -216,7 +216,7 @@ audio {
 }
 
 .textbox {
-    font-size: 100px;
+    font-size: 15vh;
     position: absolute;
     top: 50%;
     left: 50%;
