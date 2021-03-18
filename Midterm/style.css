@@ -184,3 +184,21 @@ audio {
     animation: blink 1s linear infinite;
 }
 
+@keyframes floatText {
+    from {
+      left: 00%;
+    }
+  
+    to {
+      left: 100%;
+    }
+}
+
+.floattext {
+    bottom: 0%;
+    color: #ffffff;
+    font-size: 200%;
+    position: absolute;
+    white-space: nowrap;
+    animation: floatText 5s infinite alternate ease-in-out;
+}
