@@ -33,7 +33,7 @@ audio {
 }
 
 .nextbutton {
-    background-color: #ffffff;
+    background-color: rgb(219, 238, 255);
     border: 20px;
     color: #000000;
     padding: 10px;
@@ -45,7 +45,7 @@ audio {
 }
 
 .backbutton {
-    background-color: #ffffff;
+    background-color: rgb(219, 238, 255);
     border: 20px;
     color: #000000;
     padding: 10px;
@@ -57,17 +57,29 @@ audio {
 }
 
 @keyframes blink {  
-    0% { color: white; }
-    100% { color: black; }
+    0% { 
+        color: white; 
+    }
+    100% { 
+        color: black; 
+    }
   }
 @-webkit-keyframes blink {
-    0% { color: white; }
-    100% { color: black; }
+    0% { 
+        color: white; 
+    }
+    100% { 
+        color: black; 
+    }
 }
 
 @keyframes colorchange {
-    from {background-color: red;}
-    to {background-color: orange;}
+    from {
+        background-color: red;
+    }
+    to {
+        background-color: orange;
+    }
 }
 
 .title {
@@ -201,4 +213,52 @@ audio {
     position: absolute;
     white-space: nowrap;
     animation: floatText 5s infinite alternate ease-in-out;
+}
+
+.textbox {
+    font-size: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+span {
+    display: inline-block;
+    font-weight: bolder;
+    animation: mover 6s linear infinite;
+    color: #ffffff;
+}
+
+@keyframes mover {
+    0% {
+        text-shadow: 0 0 30px rgba(0,0,0,0);
+    }
+    50% {
+        text-shadow: 0 0 30px rgba(0,0,0,0.5);
+        transform: translateY(100px);
+    }
+    100% {
+        text-shadow: 0 0 30px rgba(0,0,0,0);
+    }
+}
+
+span:nth-child(1) {
+    animation-delay: 0s;
+}
+
+span:nth-child(2) {
+    animation-delay: 0.5s;
+}
+
+span:nth-child(3) {
+    animation-delay: 1s;
+}
+
+span:nth-child(4) {
+    animation-delay: 1.5s;
+}
+
+span:nth-child(5) {
+    animation-delay: 2s;
 }
