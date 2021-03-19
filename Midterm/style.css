@@ -213,7 +213,7 @@ audio {
 .floattext {
     bottom: 0%;
     color: #ffffff;
-    font-size: 200%;
+    font-size: 300%;
     position: absolute;
     white-space: nowrap;
     animation: floatText 5s infinite alternate ease-in-out;
