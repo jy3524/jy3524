@@ -196,6 +196,10 @@ audio {
     animation: blink 1s linear infinite;
 }
 
+#starchar1:hover {
+    transform: rotate(-45deg);
+}
+
 @keyframes floatText {
     from {
       left: 00%;
