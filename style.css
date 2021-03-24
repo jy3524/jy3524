@@ -9,7 +9,7 @@ body {
     background-color: darkseagreen;
 }
 
-div {
+.main {
     color: darkolivegreen; 
     text-align: center; 
     font-family: sans-serif;
@@ -21,7 +21,7 @@ h1 {
 
 a {
     font-size: 30px; 
-    color: white;
+    color: rgb(235, 255, 198);
     text-decoration: none;
 }
 
@@ -29,6 +29,16 @@ a:hover {
     background-color: green;
 }
 
-li {
-    color: white;
+.container {
+    display: grid;
+    grid-gap: 50px 100px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+    font-family: sans-serif
+}
+
+.item {
+    border: 5px solid rgb(235, 255, 198);
+    padding: 20px;
+    text-align: center;
 }
