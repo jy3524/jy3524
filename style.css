@@ -42,3 +42,15 @@ a:hover {
     padding: 20px;
     text-align: center;
 }
+
+@media screen and (max-width: 600px) {
+    .container {
+        grid-template-columns: auto;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 1500px){
+    .container {
+        grid-template-columns: auto auto;
+    }
+}
