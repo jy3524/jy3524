@@ -1,0 +1,59 @@
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+#main {
+    text-align: center; 
+    font-family: sans-serif;
+}
+
+#head {
+    padding: 10px;
+    margin: 50px;
+}
+
+.container {
+    display: grid;
+    grid-gap: 50px 100px;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
+
+#b1 {
+    padding: 5vw;
+    border: none;
+    text-decoration: none;
+    border-radius: 20%;
+}
+
+#b2 {
+    padding: 5vw;
+    border: none;
+    text-decoration: none;
+    border-radius: 20%;
+}
+
+#b3 {
+    padding: 5vw;
+    border: none;
+    text-decoration: none;
+    border-radius: 20%;
+}
+
+#b1:hover {
+    background-color: orange;
+}
+
+#b2:hover {
+    background-color: orange;
+}
+
+#b3:hover {
+    background-color: orange;
+}
