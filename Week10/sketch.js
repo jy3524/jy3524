@@ -9,3 +9,15 @@ function typeWriter() {
         setTimeout(typeWriter, speed);
     }
 }
+
+function Shutdown() {
+    window.location.href = 'shutdown.html';
+}
+
+document.querySelector('#b2').style.display = 'none';
+document.querySelector('#b1').addEventListener('click', showBtn);
+
+function showBtn(s) {
+    document.querySelector('#b2').style.display = 'block';
+    s.preventDefault();
+}
