@@ -11,6 +11,10 @@ body {
     font-family: 'tradegothiclt-bold', sans-serif;
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    width: 100vw;
 }
 
 #head {
