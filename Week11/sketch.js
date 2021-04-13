@@ -80,7 +80,7 @@ $(function() {
     }
     start.click(init);
 
-    $('#b1').click(function() {
+    $('#button').click(function() {
         window.location.reload();
     });
     
