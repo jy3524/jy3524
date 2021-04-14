@@ -45,9 +45,8 @@ $(function() {
 
     colors.click(function() {
         if(gameState == 'playing') {
-            var selectedSquare = $(this).index();
-            var selectedColor = $(this).css('background-color');
-    
+            var selectedSquare = $(this).index(); 
+            
             if(gameSequence[clickedNo] == selectedSquare) {
                 if(clickedNo == level-1) {
                     gameState = 'waiting';
