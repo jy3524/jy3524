@@ -10,7 +10,7 @@ $(function() {
     var clickedNo;
 
     var setupLightSequence = function() {
-        var randomNum =  Math.floor(Math.random() * 4);
+        var randomNum = Math.floor(Math.random() * 4);
         gameSequence[level-1] = randomNum;
         showLightSequence();
     };
@@ -44,11 +44,11 @@ $(function() {
     };
 
     colors.click(function() {
-        if(gameState == 'playing') {
+        if(gameState === 'playing') {
             var selectedSquare = $(this).index(); 
-            
-            if(gameSequence[clickedNo] == selectedSquare) {
-                if(clickedNo == level-1) {
+
+            if(gameSequence[clickedNo] === selectedSquare) {
+                if(clickedNo === level-1) {
                     gameState = 'waiting';
                     $('body').removeClass('playing');
                     start.text('Next Level ->');
