@@ -81,9 +81,9 @@ $(function() {
         setupLightSequence();
     }
     start.click(init);
-    });
-
+    
     $('#button').click(function() {
         window.location.reload();
-    
+    });
+
 });
