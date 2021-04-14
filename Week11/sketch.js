@@ -2,12 +2,10 @@
 
 $(function() {
     var colors = $('#colors li');
-    var mainColor = $('#main');
     var start = $('#start');
     var gameState = 'waiting';
     var gameSequence = new Array();
     var level = 1;
-    var t;
     var flashNo;
     var clickedNo;
 
