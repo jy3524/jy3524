@@ -71,6 +71,7 @@ $(function() {
             }
         }
     });
+
     var init = function() {
         $('#level').text('Level ' + level);
         flashNo = 0;
@@ -80,10 +81,10 @@ $(function() {
         setupLightSequence();
     }
     start.click(init);
+    });
 
     $('#button').click(function() {
         window.location.reload();
-    });
     
 });
 
