@@ -10,11 +10,13 @@ $(function() {
     var t;
     var flashNo;
     var clickedNo;
+
     var setupLightSequence = function() {
         var randomNum =  Math.floor(Math.random() * 4);
         gameSequence[level-1] = randomNum;
         showLightSequence();
     };
+
     var lightOn = function(no) {
         colors.eq(gameSequence[no]).addClass('on');
     };
@@ -22,6 +24,7 @@ $(function() {
     var lightOff = function() {
         colors.removeClass('on');
     };
+
     var showLightSequence = function() {
         lightOff();
 
@@ -64,7 +67,7 @@ $(function() {
             else {
                 gameState = 'waiting';
                 $('body').removeClass('playing');
-                start.text('GAME OVER. Press Restart Button');
+                start.text('GAME OVER. Press Refresh Button');
                 $('body').removeClass('playing').addClass('game-over');
                 gameSequence = new Array();	
             }
