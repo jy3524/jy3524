@@ -38,7 +38,7 @@ $(function() {
         else {
             gameState = 'playing';
             $('body').addClass('playing');
-            start.text('Your Turn...');
+            start.text('Your Turn');
             clearTimeout(on);
         }	
     };
